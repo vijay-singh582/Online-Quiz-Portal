@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Page11.master.cs" Inherits="Page11" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 327px;
+            height: 1200px;
+            float:left;
+        }
+        .a:hover
+        {
+           background-color:gray;
+           height:30px;
+        }
+        #a
+        {
+            float:right-top;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+     <div style="background-color:#666666;" class="style1">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="image\Student login.jpg" alt="not found" style="background-color:#666666; height: 173px; width: 194px; margin-top: 17px; color: #666666; width: 178px; height: 156px; margin-right: 0px; margin-top: 0px;"/>&nbsp;&nbsp;&nbsp;&nbsp; 
+         <br />
+         &nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+            <asp:Label ID="Label1" runat="server" Font-Size="Medium" ForeColor="#FFFFCC" 
+                Text="Student Login"></asp:Label>
+            <br />
+            <br />
+<div class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+            <img src="image\seti3.png" alt="not found" style="height: 23px; width: 29px" />&nbsp;&nbsp; &nbsp;
+            <a href="page12.aspx" 
+        style="text-decoration:none; font-size:large; color:#FFFFCC;"> Dashboard</a></div>
+            <br />
+          <div class="a">   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="image\seti9.png" alt="not found" style="height: 22px; width: 29px" />&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="page13.aspx" 
+                style="text-decoration:none; font-size:large; color:#FFFFCC;"> Enroll</a></div>
+            <br />
+            <div class="a"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="image\seti11.png" alt="not found" style="height: 23px; width: 29px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="page14.aspx" 
+                style="text-decoration:none; font-size:large; color:#FFFFCC;">Take Quiz</a></div>
+            <br />
+            <div class="a"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="image\seti4.png" alt="not found" style="height: 23px; width: 29px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="page15.aspx" 
+                style="text-decoration:none; font-size:large; color:#FFFFCC;"> My Grades</a></div>
+            <br />
+             <div class="a">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="image\set6.png" alt="not found" style="height: 24px; width: 29px" />&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="page16.aspx" 
+                style="text-decoration:none; font-size:large; color:#FFFFCC;">Settings</a></div>
+            <br />
+            <div class="a"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <img src="image\set8.png" alt="not found" style="height: 23px; width: 29px" />&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="page1.aspx" 
+                style="text-decoration:none; font-size:large; color:#FFFFCC;">Logout</a> </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+           </div>
+        <div id="a">
+           <asp:Label ID="Label2" runat="server" BackColor="DarkTurquoise" Height="30px" 
+                   Width="1000px"></asp:Label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Label ID="Label3" runat="server" 
+                BackColor="DarkTurquoise" Height="110px" 
+             Width="200px" Font-Size="Large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="image\synf.jpg" alt="not found" height="60px" width="100px"/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ONLINE QUIZ <br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTAL</asp:Label>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="Label4" runat="server" BackColor="White" Font-Size="X-Large" 
+                ForeColor="DarkTurquoise" Text="Label" Visible="False" style="font-weight:bold;"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="36px" 
+                ImageUrl="~/image/log.jpg" onclick="ImageButton1_Click" Width="44px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
